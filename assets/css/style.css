@@ -24,7 +24,107 @@ a:hover {
 
 .bg-index {
   height: 100%;
-  background-image: url("../img/index.jpg");
+  background-image: url("../img/index.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-bible {
+  height: 100%;
+  background-image: url("../img/bible.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-english-s {
+  height: 100%;
+  background-image: url("../img/englishm.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-english-m {
+  height: 100%;
+  background-image: url("../img/englishs.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-foods {
+  height: 100%;
+  background-image: url("../img/foods.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-french {
+  height: 100%;
+  background-image: url("../img/french.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-math {
+  height: 100%;
+  background-image: url("../img/math.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-pe {
+  height: 100%;
+  background-image: url("../img/pe.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-robotics {
+  height: 100%;
+  background-image: url("../img/robotics.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-science {
+  height: 100%;
+  background-image: url("../img/science.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.bg-socials {
+  height: 100%;
+  background-image: url("../img/socials.png");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,6 +142,78 @@ a:hover {
   font-size: 25px;
 }
 
+.title-bible {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #566e7a;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-english {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #9124a5;
+  padding: 1px;
+  font-size: 24px;
+}
+
+.title-foods {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #0c8590;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-french {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #585e59;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-math {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #d91a60;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-pe {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #02579a;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-robotics {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #ee6c40;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-science {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #863a95;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.title-socials {
+  top: 0;
+  color: rgb(255, 255, 255);
+  background-color: #faa723;
+  padding: 1px;
+  font-size: 25px;
+}
+
 .button {
   border-style: solid;
   border-color: #000000;
@@ -49,4 +221,397 @@ a:hover {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+.quote-bible {
+  border-style: solid;
+  border-color: #566e7a;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-english {
+  border-style: solid;
+  border-color: #9124a5;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-foods {
+  border-style: solid;
+  border-color: #0c8590;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-french {
+  border-style: solid;
+  border-color: #585e59;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-math {
+  border-style: solid;
+  border-color: #d91a60;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-pe {
+  border-style: solid;
+  border-color: #02579a;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-robotics {
+  border-style: solid;
+  border-color: #ee6c40;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-science {
+  border-style: solid;
+  border-color: #863a95;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.quote-socials {
+  border-style: solid;
+  border-color: #faa723;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.attrib {
+  padding-top: 0px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.list-bible {
+  border-style: solid;
+  border-color: #566e7a;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-english {
+  border-style: solid;
+  border-color: #9124a5;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-foods {
+  border-style: solid;
+  border-color: #0c8590;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-french {
+  border-style: solid;
+  border-color: #585e59;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-math {
+  border-style: solid;
+  border-color: #d91a60;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-pe {
+  border-style: solid;
+  border-color: #02579a;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-robotics {
+  border-style: solid;
+  border-color: #ee6c40;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-science {
+  border-style: solid;
+  border-color: #863a95;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.list-socials {
+  border-style: solid;
+  border-color: #faa723;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-bible {
+  border-style: solid;
+  border-color: #566e7a;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-english {
+  border-style: solid;
+  border-color: #9124a5;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-foods {
+  border-style: solid;
+  border-color: #0c8590;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-french {
+  border-style: solid;
+  border-color: #585e59;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-math {
+  border-style: solid;
+  border-color: #d91a60;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-pe {
+  border-style: solid;
+  border-color: #02579a;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-robotics {
+  border-style: solid;
+  border-color: #ee6c40;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-science {
+  border-style: solid;
+  border-color: #863a95;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.footer-socials {
+  border-style: solid;
+  border-color: #faa723;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 0px;
 }
