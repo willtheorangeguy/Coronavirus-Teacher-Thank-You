@@ -13,12 +13,12 @@ a:link {
 }
 
 a:visited {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #002318;
   text-decoration: underline;
 }
 
@@ -37,7 +37,7 @@ a:hover {
   position: sticky;
   top: 0;
   color: rgb(255, 255, 255);
-  background-color: #111;
+  background-color: #002318;
   padding: 1px;
   font-size: 25px;
 }
