@@ -32,6 +32,11 @@ a:hover {
   overflow: auto;
 }
 
+.bg-index-card {
+  height: 100%;
+  background-color: black;
+}
+
 .bg-bible {
   height: 100%;
   background-image: url("../img/bible.png");

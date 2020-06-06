@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Please Wait...</title>
+    <meta
+      name="description"
+      content="A thank you to all my teachers during this time of online learning and the Coronavirus pandemic."
+    />
+    <meta name="author" content="William V" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  </head>
+
+  <body class="bg-index-card">
+    <video
+      id="envelope"
+      autoplay=""
+      muted=""
+      width="100%"
+      height="100%"
+      preload="auto"
+    >
+      <source type="video/mp4" src="../assets/video/envelope.mp4" />
+    </video>
+    <script>
+      function listen(evnt, elem, func) {
+        if (elem.addEventListener) elem.addEventListener(evnt, func, false);
+        else if (elem.attachEvent) {
+          var r = elem.attachEvent("on" + evnt, func);
+          return r;
+        } else
+          window.alert(
+            "I'm sorry, I'm afraid I can't do that. Please consider switching to Chrome or Safari."
+          );
+      }
+      listen("ended", document.getElementById("envelope"), OpenCard);
+      function OpenCard() {
+        window.location.href = "card_s.html";
+      }
+    </script>
+  </body>
+</html>
