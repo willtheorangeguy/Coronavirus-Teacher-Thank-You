@@ -37,7 +37,7 @@
 
 ## Download
 
-You can **[download](https://github.com/willtheorangeguy/Arduino-Code/archive/refs/heads/master.zip) the source code** to run the website locally on Windows, macOS and Linux.
+You can **[download](https://github.com/willtheorangeguy/Coronavirus-Teacher-Thank-You/archive/refs/heads/master.zip) the source code** to run the website locally on Windows, macOS and Linux.
 
 You can also access the **production version the website**, available on all platforms, **[here](https://willtheorangeguy.github.io/Coronavirus-Teacher-Thank-You/)**.
 
