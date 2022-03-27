@@ -81,3 +81,8 @@ More credits and contributors can be found on the [Credits page](https://willthe
 * [Canada Through Time](https://github.com/willtheorangeguy/Canada-Through-Time) - Open source web timeline for a Grade 10 Socials project.
 * [Chemistry Through Time](https://github.com/willtheorangeguy/Chemistry-Through-Time) - Open source web timeline for a Grade 9 Science project.
 * [Arduino Code](https://github.com/willtheorangeguy/Arduino-Code) - A backup of each day's Arduino code projects.
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://willtheorangeguy.github.io/Coronavirus-Teacher-Thank-You/legal/privacypolicy.html) and [Terms and Conditions](https://willtheorangeguy.github.io/Coronavirus-Teacher-Thank-You/legal/termsandconditions.html) for legal information.
+
